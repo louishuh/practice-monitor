@@ -29,6 +29,10 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'io.micrometer:micrometer-registry-prometheus'
+
+    // https://mvnrepository.com/artifact/org.jeasy/easy-random-core
+    implementation 'org.jeasy:easy-random-core:5.0.0'
+    implementation 'org.fluttercode.datafactory:datafactory:0.8'
 }
 
 tasks.named('test') {
